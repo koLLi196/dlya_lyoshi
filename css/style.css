@@ -20,10 +20,10 @@ main {
 
 .card {
     width: 250px;
-    height: 350px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 5px();
+    box-shadow: 0 0 5px black;
 }
 
 .card_img {
@@ -86,7 +86,7 @@ main {
 
 .card_btn {
     padding: 10px;
-    background-color: #000077;
+    background-color: #01660e;
     color: #fff;
     font-weight: 800;
 }
